@@ -1,0 +1,85 @@
+.container {
+    background-color: rgb(219, 190, 239);
+}
+.login {
+    height: 100vh;
+    background-color: rgb(219, 190, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    .cart{
+        width: 50%;
+        display: flex;
+        background-color: #fff;
+        border-radius: 10px;
+        min-height: 400px;
+        color: white;
+        .left{
+            flex: 1;
+            background: linear-gradient(rgba(39,11,96,0.5), rgba(39,11,96,0.5)),  url("../../Assets/social2.jpeg") center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            h1{
+                font-size: 80px;
+                line-height: 80px;
+            }
+            p{}
+            span{}
+            button{
+                width: 50%;
+                border: none;
+                border-radius: 7px;
+                background-color: whitesmoke;
+                color: rebeccapurple;
+                padding: 10px;
+                cursor: pointer;
+            }
+        }
+
+        .right{
+            flex: 1;
+            h1{
+                color: rebeccapurple;
+                padding: 20px;
+                text-align: center;
+            }
+            form{
+                text-align: center;
+                padding: 20px;
+                label{
+                    color: rebeccapurple;
+                    display: block;
+                    margin-bottom: 10px;
+                }
+                input{
+                    width: 80%;
+                    margin-bottom: 40px;
+                    border-radius: 10px;
+                    color: rebeccapurple;
+                    padding: 5px;
+                    border: 2px solid rebeccapurple;
+                }
+                .input-password{
+                    margin-bottom:  20px;
+                }
+                button{
+                    padding: 10px;
+                    width: 50%;
+                    border-radius: 10px;
+                    // background-color: rgb(212, 169, 240);
+                    background-color: rebeccapurple;
+                    border: none;
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
